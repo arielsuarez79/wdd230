@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+   font-size: 16pt; 
+}
+
+header, main, footer{
+    max-width: 760px;
+}
+h1 {
+    font-size: 2.4rem;
+    font-family:"Otomanopee One";
+}
+header {
+    background-color: #ef233c;
+    height: 90px;
+    display: flex;
+    width: 760px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+   
+    
+}
+footer {
+    
+    align-items: center;
+    justify-content: center;
+    background-color:#53B6EE ; 
+    align-content: center;
+    font-family:"Poppins";
+    text-align:center;
+    border-radius: 2px;
+}
+#lastmodified {
+    bottom: auto;
+}
+.portal-image{
+    height: 250px;
+    margin: 5px 40px;
+    border-radius: 2px;
+    border-style: solid; 
+    border-color: #FC4361;
+    margin-top: 175px;
+}
+#lastmodified {
+    font-size: 0.9rem;
+    justify-content: center;
+    align-items: center;
+    font-family:"Poppins";
+}
+h2{
+    font-family:"Otomanopee One";
+    font-size: 1.7rem; 
+    
+}
