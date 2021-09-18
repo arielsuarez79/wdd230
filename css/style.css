@@ -27,7 +27,7 @@ footer {
     
     align-items: center;
     justify-content: center;
-    background-color:#53B6EE ; 
+    background-color:#ef233c; 
     align-content: center;
     font-family:"Poppins";
     text-align:center;
@@ -52,6 +52,9 @@ footer {
 }
 h2{
     font-family:"Otomanopee One";
-    font-size: 1.7rem; 
-    
+    font-size: 1.7rem;   
+}
+hr{
+    border: 3px solid #BFC4C6;
+    border-radius: 5px;
 }
