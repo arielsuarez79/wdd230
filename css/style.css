@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body {
-   font-size: 16pt; 
+   font-size: 16pt;
+   max-width: 760px;
+   margin: 0 auto;
+} 
 }
 
 header, main, footer{
