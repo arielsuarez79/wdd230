@@ -1,0 +1,25 @@
+/*@media (min-width: 1300px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}*/
+@media (min-width: 1300px) {
+    body{
+        max-width: 1200px;
+        margin: auto;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    section{
+        padding: 10px;
+    }
+
+    
+
+    
+}
