@@ -36,6 +36,7 @@ h3 {
     padding: 1rem;
     text-align: center;
     font-size: 1.4rem;
+    border-radius: 10px 10px 0px 0px;
 
 }
 
@@ -50,6 +51,7 @@ p {
 section img{
    width: 100%;
    margin-top: 1rem;
+   padding: 6px;  
 }
 
 footer {
