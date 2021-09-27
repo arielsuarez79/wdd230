@@ -60,3 +60,7 @@ hr{
     border: 3px solid #BFC4C6;
     border-radius: 5px;
 }
+li {
+    list-style: none;
+    text-decoration:none;
+}
