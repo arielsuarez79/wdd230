@@ -1,0 +1,37 @@
+@media only screen and (min-width: 37.5rem) {
+    
+    main {
+        padding: 1.2rem;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    nav ul li{
+        width: 100%;
+        
+    }
+
+    nav ul li a{
+        padding: 1.2rem;
+        font-size: 1.2rem;
+ 
+    }
+
+    footer {
+        display: block;
+    }
+    
+    header, nav, main, footer {
+        max-width: 60.62rem;
+        margin: 0 auto;
+    } 
+    nav{
+        box-shadow: 0 2px 15px gray;
+    }   
+
+}
