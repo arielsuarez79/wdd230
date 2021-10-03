@@ -71,4 +71,23 @@ nav a:hover{
 	background-color: #dbaacc;
 	color: #5f748a;
 }
+/* target audience*/
+.img-persona{
+	width: 200px;
+}
+
+h3{
+	font-size: 1.4rem;
+	font-family: "Poppins";
+	font-weight: bold;
+}
+.personas{
+	font-size: 1.3rem;
+	font-family: "Yaldevi";
+	font-weight: bold;	
+}
+.scenarios{
+	font-size: 1.1rem;
+	font-family: "Yaldevi";
+}
 
