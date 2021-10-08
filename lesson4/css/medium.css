@@ -1,0 +1,21 @@
+@media only screen and (min-width: 37.5rem) {
+    
+    main {
+        padding: 1.2rem;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    nav a:hover{
+        background-color: #dbaacc;
+        color: #5f748a;
+    }
+
+
+}
