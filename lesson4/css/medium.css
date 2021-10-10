@@ -24,6 +24,7 @@
     }
     nav ul li a{
         border: none;
+        width: max-content;
     }
 
 }

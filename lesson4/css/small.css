@@ -21,19 +21,13 @@ h1 {
 	margin: auto;
 	
 }
-h2 {
-	color: black;
-	font-family: "Poppins";
-	font-size: 1rem;
-	
-}
+
+
 p{
 	font-size: 1rem;
 	font-family: "Yaldevi";
 	margin: auto;
-	
-	margin-block-start: 1em;
-    margin-block-end: 1em;
+		
 }
 
 nav {
@@ -54,8 +48,9 @@ nav ul li a {
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	border-top: 1px solid rgb(0, 0, 0, 0.3);
+	
 }
 nav button{
 	margin: .2rem 2%;
@@ -69,22 +64,28 @@ main {
 	display: grid;
 	grid-template-columns: 1fr;
 	
+	
 }
 main article {
 	margin: 0.2rem;
 	border: 1px solid #bbb;
 	padding: 0 3rem;
 	background-color: #eee;
+	display: block;
+	
 }
 
 footer {
 	height: 2rem;
-	font-size: 0.95rem;
+	font-size: 1rem;
 	font-family: "Poppins";
 	display: block;
 	text-align: center;
 	font-weight: bold;
-	padding-top: 1rem;
+	padding: 1rem;
+	background-color: #dd97eb ;
+	
+	
 }
 nav ul li a:hover{
 	background-color: #dbaacc;
@@ -96,3 +97,4 @@ nav ul li a:hover{
 nav ul.hide{
 	display: none;
 }
+
