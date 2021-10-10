@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em){
+@media only screen and (min-width: 37.5em){
     header {
 
         background-color: #dd97eb;
@@ -33,5 +33,11 @@
     nav a:hover{
         background-color: #dbaacc;
         color: #5f748a;
+    }
+    nav button{
+        display: none;
+    }
+    nav ul li a{
+        border: none;
     }
 }

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5rem) {
+@media only screen and (min-width: 32.5rem) {
     
     main {
         padding: 1.2rem;
@@ -16,6 +16,14 @@
         background-color: #dbaacc;
         color: #5f748a;
     }
-
+    nav button{
+        display: none;
+    }
+    nav ul.hide{
+        display: flex;
+    }
+    nav ul li a{
+        border: none;
+    }
 
 }

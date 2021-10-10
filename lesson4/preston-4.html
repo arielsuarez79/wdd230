@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <script defer src=></script>
+    <script defer src="js/scripts.js"></script>
     <title>Weather</title>
 </head>
 <body>
@@ -21,12 +21,13 @@
         
     </header>
     <nav>
-        <ul>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
             <li><a href="" class="">Home</a></li>
             <li><a href="">Preston</a></li>
             <li><a href="">Soda Springs</a></li>
             <li><a href="">Fish Haven</a></li>
-            <li><a href="">Storm center</a></li>
+            <li><a href="">Storm Center</a></li>
             <li><a href="">Gallery</a></li>
         </ul>
     </nav>
@@ -42,7 +43,8 @@
        </article>
     </main>
     <footer>
-        <span class="current-year"> </span> | Arnaldo Suarez | <span class="last-modified"></span>
+        &copy;<span id="copyrightyear"></span> MaTeo Weather | Arnaldo Suarez 
+            <div id="date"></div>
     </footer>
     <script src=""></script>
 </body>
