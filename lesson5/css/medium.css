@@ -1,10 +1,11 @@
-@media only screen and (min-width: 32.5rem) {
+@media only screen and (min-width: 32rem) {
     
     
     nav ul {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        width: 850px;
     }
     h1{
         font-size: 1.8rem;
@@ -36,5 +37,5 @@
         grid-template-columns: 1fr;
         max-width: 930px;
     }
-
+    
 }

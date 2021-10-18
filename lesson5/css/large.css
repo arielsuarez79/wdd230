@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em){
+@media only screen and (min-width: 40.5em){
     header {
 
         background-color: #dd97eb;
@@ -7,7 +7,7 @@
         padding: 1rem;
         align-items: center;
         justify-content: center;
-        max-width: 100%;
+        /*max-width: 100%;*/
     }
     .logo-image{
         margin-right: 2rem;

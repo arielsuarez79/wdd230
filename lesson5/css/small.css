@@ -11,6 +11,7 @@ header{
 	justify-content: space-around;
 	background-color: #dd97eb;
 	max-width: 100%;
+	margin: 0;
     
 }
 
@@ -116,13 +117,17 @@ table{
 }
 caption{
 	border-bottom: solid 3px;
-	background-color: #988BC0  ;
+	background-color: #7469b6  ;
 	padding: 12px;
 	color: whitesmoke;
+	border-radius: 0 10px 0 10px;
 }
 table{
-	background-color: #C2BFBE;
+	background-color: #4f3b57;
 	margin: auto;
+	border-radius: 0 0 10px 10px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	
 }
 article{
 	display: block;
@@ -146,6 +151,8 @@ main{
 .forecast{
 
 	margin: auto;
+	padding-bottom: 15px;
+	padding-left: 8px;
 }
 	
 .flex {
@@ -153,16 +160,17 @@ main{
 	/* flex-direction: row; */
 	/* let us combine row and wrap with flow */
 	flex-flow: row wrap;
-	padding-bottom: 10px;
+	padding-bottom: px;
 	/*width: 100%;*/
 	margin: auto;
 	font-family: "Yaldevi";
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 	
 }
 
 .flex-col {
 	flex: 0.5 0.5 auto;
-	background-color: #bed;
+	background-color: rgb(188, 153, 221);
 	
 	text-align: center;
 	
@@ -173,13 +181,10 @@ main{
 	border-left: 1px solid #333;
 	border-right: 1px solid #333 ;
 	text-align: center;
+	
 
 }
-/*.flex-col:hover, td:hover, .column-col:hover, .grid-col:hover {
-	opacity: 0.75;
-	background-color: black;
-	color: white;
-}*/
+
 
 
 
@@ -206,14 +211,30 @@ main{
 }
 .position{
 	
-	margin: 0.2rem;
+	margin: 15px;
 	border: 1px solid #bbb;
-	padding: 0 3rem;
+	padding: 20px;
 	background-color: #eee;
-
+	padding-bottom: 15px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	align-content: center;
+	text-align: center;
+}	
+h4 {
+	font-family: "Yaldevi";
+	font-size: 1.8rem;
+	font-weight: bold;
 }
 .article-img{
-	width: 300px;
+	width: 250px;
+	
+}
+.article-text{
+	text-align: justify;
+}
+.funder{
+	padding: 10px;
+	
 }
 
 /* banner*/
