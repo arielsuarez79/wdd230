@@ -147,6 +147,9 @@ section{
 main{
 	align-items: center;
 }
+main img{
+	width: 100%;
+}
 /*5day forecast*/
 .forecast{
 
