@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Yaldevi&display=swap');
+
+
+
+header{
+	height: 100px;
+    display: flex;
+	padding: 1rem;
+    align-items: center;
+	justify-content: space-around;
+	background-color: #dd97eb;
+	max-width: 100%;
+	margin: 0;
+    
+}
+
+h1 {
+	font-size: 1.4rem;
+	font-family: "Poppins";
+	padding: 10px;
+	margin: auto;
+	
+}
+h2{
+	text-align: center;
+	font-family: "Poppins";
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+
+p{
+	font-size: 1rem;
+	font-family: "Yaldevi";
+	margin: auto;
+		
+}
+
+nav {
+	background-color: #5f748a;
+	text-align: center;
+	font-family: "Yaldevi";
+	
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.1rem;
+	border-top: 1px solid rgb(0, 0, 0, 0.3);
+	
+}
+nav button{
+	margin: .2rem 2%;
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 1.6rem;
+}
+
+
+	
+
+/*main article {
+	margin: 0.2rem;
+	border: 1px solid #bbb;
+	padding: 0 3rem;
+	background-color: #eee;
+	display: block;
+	
+}*/
+
+footer {
+	height: 2rem;
+	font-size: 1rem;
+	font-family: "Poppins";
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	padding: 1rem;
+	background-color: #dd97eb ;
+	
+	
+}
+nav ul li a:hover{
+	background-color: #dbaacc;
+	color: #5f748a;
+}
+.logo-image{
+	width: 150px;
+}
+nav ul.hide{
+	display: none;
+}
+
+tr .td1{
+	text-align: right;
+	color: whitesmoke;
+}
+tr .td2{
+	text-align: left;
+	color: yellow;
+}
+table{
+	width: 200px;
+	font-family: "Poppins";
+	padding: 10px;
+}
+caption{
+	border-bottom: solid 3px;
+	background-color: #7469b6  ;
+	padding: 12px;
+	color: whitesmoke;
+	border-radius: 0 10px 0 10px;
+}
+table{
+	background-color: #4f3b57;
+	margin: auto;
+	border-radius: 0 0 10px 10px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	
+}
+article{
+	display: block;
+}
+section{
+	display: block;
+}
+.image{
+	width: 100%;
+
+}
+.preston-img{
+	width: 100%;
+	margin: auto;
+	padding: 5px;
+}
+main{
+	align-items: center;
+}
+/*5day forecast*/
+.forecast{
+
+	margin: auto;
+	padding-bottom: 15px;
+	padding-left: 8px;
+}
+	
+.flex {
+	display: flex;
+	/* flex-direction: row; */
+	/* let us combine row and wrap with flow */
+	flex-flow: row wrap;
+	padding-bottom: px;
+	/*width: 100%;*/
+	margin: auto;
+	font-family: "Yaldevi";
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	
+}
+
+.flex-col {
+	flex: 0.5 0.5 auto;
+	background-color: rgb(188, 153, 221);
+	
+	text-align: center;
+	
+}
+.flex-col, .column-col, .grid-col {
+	border-top: 1px solid #333 ;
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	border-right: 1px solid #333 ;
+	text-align: center;
+	
+
+}
+
+
+
+
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+	text-align: center;
+	
+
+}
+
+.flex img {
+	border-radius: 100px;
+	padding: 0.25rem;
+	width: 40px;
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+.position{
+	
+	margin: 15px;
+	border: 1px solid #bbb;
+	padding: 20px;
+	background-color: #eee;
+	padding-bottom: 15px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	align-content: center;
+	text-align: center;
+}	
+h4 {
+	font-family: "Yaldevi";
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+.article-img{
+	width: 250px;
+	
+}
+.article-text{
+	text-align: justify;
+}
+.funder{
+	padding: 10px;
+	
+}
+
+/* banner*/
+.banner{
+	display: none;
+}
+.banner {
+	background: #009579;
+  }
+  
+  .banner__content {
+	padding: 16px;
+	max-width: 500px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+  }
+  
+  .banner__text {
+	flex-grow: 1;
+	line-height: 1.4;
+	font-family: "Yaldevi", sans-serif;
+  }
+  
+  .banner__close {
+	background: none;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .banner__text,
+  .banner__close > span {
+	color: #ffffff;
+  }
+  
