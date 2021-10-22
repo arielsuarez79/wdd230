@@ -65,4 +65,7 @@
     .article-text{
         text-align: justify;
     }
+    main image{
+        width: 100%;
+    }
 }    
