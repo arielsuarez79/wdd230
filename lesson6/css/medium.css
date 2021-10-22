@@ -37,5 +37,8 @@
         grid-template-columns: 1fr;
         max-width: 930px;
     }
+    main image{
+        width: 100%;
+    }
     
 }
