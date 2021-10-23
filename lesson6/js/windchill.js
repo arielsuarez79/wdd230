@@ -10,9 +10,9 @@
 //var windChill= Math.round(windChill);
 //document.getElementById("windChill").textContent= windChill;
 
-const wSpeed = parseFloat(document.getElementById("#wind").textContent);
-const temp = parseFloat(document.getElementById("#temp").textContent);
-const windChill = parseFloat(document.getElementById("#windChill").textContent);
+const wSpeed = parseFloat(document.getElementById("wind").textContent);
+const temp = parseFloat(document.getElementById("temp").textContent);
+const windChill = parseFloat(document.getElementById("windChill").textContent);
 let windChillVal;
 
 if (temp <= 50 && wSpeed > 3) {
@@ -20,8 +20,8 @@ if (temp <= 50 && wSpeed > 3) {
 
     windChillVal = Math.round(windChillVal * 100) / 100;
 
-    document.getElementById("#windChill").textContent = `${windChillVal} °F`;
+    document.getElementById("windChill").textContent = `${windChillVal} °F`;
 } else {
-    document.getElementById("#windChill").textContent = "N/A";
+    document.getElementById("windChill").textContent = "N/A";
 }
 console.log();
