@@ -10,7 +10,7 @@
 //var windChill= Math.round(windChill);
 //document.getElementById("windChill").textContent= windChill;
 
-const wSpeed = parseFloat(document.getElementById("#windspeed").textContent);
+const wSpeed = parseFloat(document.getElementById("#wind").textContent);
 const temp = parseFloat(document.getElementById("#temp").textContent);
 const windChill = parseFloat(document.getElementById("#windChill").textContent);
 let windChillVal;
