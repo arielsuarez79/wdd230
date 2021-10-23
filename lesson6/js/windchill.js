@@ -24,4 +24,4 @@ if (temp <= 50 && wSpeed > 3) {
 } else {
     document.getElementById("windChill").textContent = "N/A";
 }
-console.log();
+
