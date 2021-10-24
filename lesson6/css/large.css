@@ -12,6 +12,9 @@
     .logo-image{
         margin-right: 2rem;
     }
+    nav ul{
+        width: 950px;
+    }
 
     nav ul li a{
         font-size: 1.1rem;

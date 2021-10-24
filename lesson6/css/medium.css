@@ -5,7 +5,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 850px;
+        width: 100%;
     }
     h1{
         font-size: 1.8rem;
