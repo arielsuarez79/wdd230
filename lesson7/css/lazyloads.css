@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+.lazy-gallery {
+    display: grid;
+    grid-gap: 3px;
+    align-items: center;
+    justify-items: center;
+}
+article img[data-src] {
+    filter: blur(0.2em);
+}
+  
+article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
