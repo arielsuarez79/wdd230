@@ -3,9 +3,14 @@ h1 {
 }
 .lazy-gallery {
     display: grid;
-    grid-gap: 3px;
+    grid-gap: 25px;
     align-items: center;
     justify-items: center;
+    
+}
+img{
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px;
 }
 article img[data-src] {
     filter: blur(0.2em);
