@@ -15,6 +15,13 @@ header{
     
 }
 
+.active{
+	color: #dbaacc;
+	background-color: #535b64 ;
+	border-top: 1px solid white;
+	border-radius: 2px;
+}
+
 h1 {
 	font-size: 1.4rem;
 	font-family: "Poppins";
@@ -87,10 +94,10 @@ footer {
 	text-align: center;
 	font-weight: bold;
 	padding: 1rem;
-	background-color: #dd97eb ;
-	
-	
+	background-color: #dd97eb ;	
 }
+
+
 nav ul li a:hover{
 	background-color: #dbaacc;
 	color: #5f748a;

@@ -14,6 +14,12 @@ header{
 	margin: 0;
     
 }
+.active{
+	color: #dbaacc;
+	background-color: #535b64 ;
+	border-top: 1px solid white;
+	border-radius: 2px;
+}
 
 h1 {
 	font-size: 1.4rem;
@@ -160,8 +166,6 @@ main img{
 	
 .flex {
 	display: flex;
-	/* flex-direction: row; */
-	/* let us combine row and wrap with flow */
 	flex-flow: row wrap;
 	padding-bottom: px;
 	/*width: 100%;*/
@@ -184,20 +188,14 @@ main img{
 	border-left: 1px solid #333;
 	border-right: 1px solid #333 ;
 	text-align: center;
-	
 
 }
-
-
-
 
 .col-head {
 	display: block;
 	padding: 5px;
 	border-bottom: 1px solid #333;
-	text-align: center;
-	
-
+	text-align: center;	
 }
 
 .flex img {
@@ -218,7 +216,7 @@ main img{
 	border: 1px solid #bbb;
 	padding: 20px;
 	background-color: #eee;
-	padding-bottom: 15px;
+	padding-bottom: 1rem;
 	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 	align-content: center;
 	text-align: center;

@@ -68,13 +68,13 @@ nav button{
 }
 
 footer {
-	height: 2rem;
+	height: 40px;
 	font-size: 1rem;
 	font-family: "Poppins";
 	display: block;
 	text-align: center;
 	font-weight: bold;
-	padding: 1rem;
+	padding: 16px;
 	background-color: #dd97eb ;
 	
 	
@@ -114,6 +114,12 @@ section picture{
 }
 main div{
 	margin: auto;
+}
+.active{
+	color: #dbaacc;
+	background-color: #535b64 ;
+	border-top: 1px solid white;
+	border-radius: 2px;
 }
 
 
