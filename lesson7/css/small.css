@@ -76,6 +76,7 @@ footer {
 	font-weight: bold;
 	padding: 16px;
 	background-color: #dd97eb ;
+	margin-bottom: 0 auto;
 	
 	
 }
@@ -100,26 +101,34 @@ figcaption{
 main img{
 	width: 300px;
 	height: 400px;
-	margin: auto;
-	align-content: center;
+	
+	
 }
+
 	
 
-.lazy-gallery {
-	margin-left: 30px;
-	align-content: center;
+section {
+	display: flex;
+    margin-top: 15px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
-section picture{
-	margin: auto;
+	
+	
+	
+	
+
 }
-main div{
-	margin: auto;
-}
+
+
 .active{
-	color: #dbaacc;
+	color: #fbc2e9;
 	background-color: #535b64 ;
 	border-top: 1px solid white;
 	border-radius: 2px;
 }
+
 
 

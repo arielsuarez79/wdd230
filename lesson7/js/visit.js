@@ -1,25 +1,25 @@
-const daysSinceLastVisit = document.querySelector('#visit');
+const lastDayVisit = document.querySelector('#visit');
 
 
 let daysPassed = 0;
 let lastVisited;
-let visitedToday = new Date()
+let todayVisit = new Date()
 
 
 const populateStorage = () => {
-    localStorage.setItem('lastVisited', visitedToday.getTime());
-    localStorage.setItem('visitedToday', visitedToday.getTime());
+    localStorage.setItem('lastVisited', todayVisit.getTime());
+    localStorage.setItem('todayVisit', todayVisit.getTime());
 }
 
 const setNewDate = () => {
-  localStorage.setItem('visitedToday', visitedToday.getTime());
+  localStorage.setItem('todayVisit', todayVisit.getTime());
   daysPassed = calculateDays();
 
 }
 
 const calculateDays = () => {
   let last = localStorage.getItem('lastVisited');
-  let now = localStorage.getItem('visitedToday');
+  let now = localStorage.getItem('todayVisit');
   
   let difference = now - last
 
@@ -36,6 +36,6 @@ if(!localStorage.getItem('lastVisited')) {
   setNewDate();
 }
 
-daysSinceLastVisit.innerHTML = daysPassed;
+lastDayVisit.innerHTML = daysPassed;
 
-localStorage.setItem('lastVisited', visitedToday.getTime());
+localStorage.setItem('lastVisited', todayVisit.getTime());
