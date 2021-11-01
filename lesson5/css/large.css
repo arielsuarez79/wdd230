@@ -44,7 +44,9 @@
     
     .table{
          
-        position: absolute; left: 250px; top: 300px;
+        position: absolute; 
+        left: 100px; 
+        top: 100px;
         
         
     }

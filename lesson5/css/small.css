@@ -108,7 +108,13 @@ nav ul li a:hover{
 nav ul.hide{
 	display: none;
 }
-
+/**/
+.table{
+	position: absolute;
+	top: 35px;
+	left: 20px;
+	
+}
 tr .td1{
 	text-align: right;
 	color: whitesmoke;
@@ -136,13 +142,12 @@ table{
 	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 	
 }
-article{
-	display: block;
-}
+
 section{
 	display: block;
 }
 .image{
+	position: relative;
 	width: 100%;
 
 }
@@ -164,8 +169,6 @@ main{
 	
 .flex {
 	display: flex;
-	/* flex-direction: row; */
-	/* let us combine row and wrap with flow */
 	flex-flow: row wrap;
 	padding-bottom: px;
 	/*width: 100%;*/
