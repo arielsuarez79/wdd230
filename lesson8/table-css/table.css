@@ -16,14 +16,14 @@ caption{
     padding: 15px;
     margin-top: 15px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    
+    font-weight: bold;
     
     
 }
 th{
     background-color: #628ca6;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.3em;
     border: 1px solid #b8bbbd;
     
 }
@@ -34,8 +34,11 @@ td{
     
 tr{
     height: 45px;
-    border: 1px solid #b8bbbd;
+    /*border: 1px solid #b8bbbd;*/
     
+}
+tfoot{
+    background-color:#7fb9c2;
 }
 .august{
     background-color: #e7f0ed;
@@ -62,15 +65,18 @@ tr{
 .italy{
     font-style: italic;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 
     table { 
         border: 0; 
         width: 100%;
+        padding: 5px;
+        
     }
     
     table caption { 
-        font-size: 1.3em; 
+        font-size: 1.4em; 
+        font-weight: bold;
     }
     
     table thead { 
@@ -80,15 +86,17 @@ tr{
     table tr {
       border-bottom: 3px solid #ddd;
       display: block;
-      margin-bottom: .625em;
-      min-height: 60px;
+      margin-bottom: .6em;
+      height: fit-content;
+      
     }
     
     table td {
       border-bottom: 1px solid #ddd;
       display: block;
-      font-size: .8em;
+      font-size: 1.1em;
       text-align: right;
+      padding: 5px;
      
     }
     
@@ -96,11 +104,18 @@ tr{
       content: attr(data-label);
       float: left;
       font-weight: bold;
-      text-transform: uppercase;
+      
       
     }
     
     table td:last-child { 
-        border-bottom: 0; 
+        border-bottom: 0;
+    
     }
+    tfoot tr td{
+        text-align: center;
+        padding: 20px;
+        
+    }
+    
 }
