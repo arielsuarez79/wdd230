@@ -1,0 +1,86 @@
+table{
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    width: 400px;
+    
+}
+caption{
+    background-color:#7fb9c2;
+    height: 40px;
+    font-size: 1.5em;
+    padding: 15px;
+}
+th{
+    background-color: #628ca6;
+    color: white;
+    font-size: 1.2em;
+}
+    
+tr{
+    height: 45px;
+    
+}
+.august{
+    background-color: #e7f0ed;
+}
+.september{
+    background-color: #e7ffed;
+}
+.october{
+    background-color: #e7f0ed;
+}
+.november{
+    background-color: #e7ffed;
+}
+.friday{
+    background-color: #e7f0ed;
+}
+.december{
+    background-color: #e7ffed;
+}
+#goal{
+    background-color: #7fb9c2;
+    color: white;
+}
+@media screen and (max-width: 600px) {
+
+    table { 
+        border: 0; 
+        width: 100%;
+    }
+    
+    table caption { 
+        font-size: 1.3em; 
+    }
+    
+    table thead { 
+        display: none; 
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+      min-height: 60px;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+     
+    }
+    
+    table td:before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+      
+    }
+    
+    table td:last-child { 
+        border-bottom: 0; 
+    }
+}

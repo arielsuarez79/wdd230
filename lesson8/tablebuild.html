@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Build</title>
+    <link rel="stylesheet" href="table-css/table.css">
+
+</head>
+<body>
+    <table>
+  <caption>
+    ACME Wildenest
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Period</th>
+      <th scope="col">Sales</th>
+      <th scope="col">Sales Goal</th> 
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="august">
+      <td scope="row" data-label="Period">August</td>
+      <td data-label="Sales">$3,590</td>
+      <td data-label="Sales Goal">$4,000</td>
+    </tr>
+    <tr class="september">
+      <td scope="row" data-label="Period">September</td>
+      <td data-label="Sales">$4,420</td>
+      <td data-label="Sales Goal">$5,000</td>
+    </tr>
+    <tr class="october">
+      <td scope="row" data-label="Period">October</td>
+      <td data-label="Sales">$4,870</td>
+      <td data-label="Sales Goal">$5,000</td>
+    </tr>
+    <tr class="november">
+      <td scope="row" data-label="Period">November</td>
+      <td data-label="Sales">$8,610</td>
+      <td id="goal" data-label="Sales Goal">$7,500</td>
+    </tr>
+    <tr class="friday">
+        <td scope="row" data-label="Period">Black Friday</td>
+        <td colspan="2" data-label="Sales">$3,200</td>
+        
+    </tr>
+    <tr class="december">
+        <td scope="row" data-label="Period">December</td>
+        <td data-label="Sales">$6,820</td>
+        <td data-label="Sales Goal">$7,500</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

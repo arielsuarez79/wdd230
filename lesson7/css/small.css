@@ -102,10 +102,7 @@ main img{
 	width: 300px;
 	height: 400px;
 	
-	
 }
-
-	
 
 section {
 	display: flex;
@@ -116,13 +113,6 @@ section {
     align-items: center;
 }
 	
-	
-	
-	
-
-}
-
-
 .active{
 	color: #fbc2e9;
 	background-color: #535b64 ;
