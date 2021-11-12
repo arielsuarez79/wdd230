@@ -1,0 +1,108 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');*/
+
+
+header{
+	height: 100px;
+    display: flex;
+	padding: 1rem;
+    align-items: center;
+	justify-content: space-around;
+	background-color: #dd97eb;
+	max-width: 100%;
+	margin: 0;
+    
+}
+
+h1 {
+	font-size: 1.4rem;
+	font-family: "Poppins";
+	padding: 10px;
+	margin: auto;
+	
+}
+h2{
+	text-align: center;
+	font-family: "Poppins";
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+
+p{
+	font-size: 1rem;
+	font-family: "Yaldevi";
+	margin: auto;
+		
+}
+
+nav {
+	background-color: #5f748a;
+	text-align: center;
+	font-family: "Yaldevi";
+	
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.1rem;
+	border-top: 1px solid rgb(0, 0, 0, 0.3);
+	
+}
+nav button{
+	margin: .2rem 2%;
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 1.6rem;
+}
+
+footer {
+	height: 40px;
+	font-size: 1rem;
+	font-family: "Poppins";
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	padding: 16px;
+	background-color: #dd97eb ;
+	margin-bottom: 0 auto;
+	
+	
+}
+nav ul li a:hover{
+	background-color: #dbaacc;
+	color: #5f748a;
+}
+.logo-image{
+	width: 150px;
+}
+nav ul.hide{
+	display: none;
+}
+/**/
+
+	
+.active{
+	color: #fbc2e9;
+	background-color: #535b64 ;
+	border-top: 1px solid white;
+	border-radius: 2px;
+}
+
+/*home*/
+img{
+	width: 300px;
+	height: 200px;
+}
+
