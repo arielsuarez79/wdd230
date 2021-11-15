@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 40.5em){
     header {
 
         background-color: #dd97eb;
@@ -43,57 +43,34 @@
     nav ul li a{
         border: none;
     }
-    
-    
-    
-    /*lazy load*/
-    main{
-        
-        /*grid-auto-columns : minmax(100px, auto);*/
-        width: 940px;
-        margin: auto;
-    }
-    section.lazy-gallery{
+    /*home*/
+    .cards{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
-        
-    }
-    section.lazy-gallery {
-        
-        margin-top: 15px;
-        margin-bottom: 15px;
-        grid-gap: 25px;
-        align-items: center;
         justify-items: center;
-        padding: 10px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        
+       
     }
-    picture img:hover{
-        border-radius: 4px;
-        box-shadow: 5px 5px 10px;
-    }
-    article img[data-src] {
-        filter: blur(0.2em);
-    }
-      
-    article img {
-        filter: blur(0em);
-        transition: filter 0.5s;
-    }
-    figcaption{
-        font-family: Yaldevi;
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
-        padding: 10px;
-        font-weight: bold;
-
-    }
-    picture img{
-        width: 300px;
-        height: 400px;
+        margin-top: 5px;
+        justify-content: center;
         
     }
+    main section{
+        max-width: 200px;
+        height: 260px;
+    }
+    div.cards{
+        width: 750px;
+        margin: auto;
+        padding: 10px;
+    }
+        
+    
+        
+
+    
 }    

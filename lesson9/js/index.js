@@ -11,7 +11,7 @@ fetch(requestURL)
         change.forEach((x) => {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
-            let motto = document.createElement('p');
+            let motto = document.createElement('h3');
             let founded = document.createElement('p');
             let population = document.createElement('p');
             let rain = document.createElement('p');
@@ -19,9 +19,9 @@ fetch(requestURL)
 
             h2.textContent = x.name;
             motto.textContent = x.motto;
-            founded.textContent = "Year Founded:"+x.yearFounded;
-            population.textContent = "Population:"+x.currentPopulation;
-            rain.textContent = "Annual Rain Fall:"+x.averageRainfall;
+            founded.textContent = "Year Founded: "+x.yearFounded;
+            population.textContent = "Population: "+x.currentPopulation;
+            rain.textContent = "Annual Rain Fall: "+x.averageRainfall;
     
             img.setAttribute('src', '/lesson9/images/' + x.photo);
             img.setAttribute('alt', x.name + x.lastname);
