@@ -68,7 +68,22 @@
         margin: auto;
         padding: 10px;
     }
-        
+    /*Contact style*/
+    
+    #info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        align-content: center;
+        justify-items: center;
+        margin: auto;
+    }
+    #social{
+        grid-column: 2/2;
+    }
+    #map{
+        grid-row: span 2;
+    }  
     
         
 

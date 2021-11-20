@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 table{
     font-family: Ubuntu, sans-serif;
     text-align: center;
@@ -40,24 +40,17 @@ tr{
 tfoot{
     background-color:#7fb9c2;
 }
-.august{
+td{
+    font-weight: 500px;
+    font-size: 18px;
+}
+tbody tr{
     background-color: #e7f0ed;
 }
-.september{
+tbody tr:nth-child(2n){
     background-color: #e7ffed;
 }
-.october{
-    background-color: #e7f0ed;
-}
-.november{
-    background-color: #e7ffed;
-}
-.friday{
-    background-color: #e7f0ed;
-}
-.december{
-    background-color: #e7ffed;
-}
+
 #goal{
     background-color: #628ca6;
     color: white;

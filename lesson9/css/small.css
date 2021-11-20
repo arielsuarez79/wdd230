@@ -68,7 +68,7 @@ nav button{
 }
 
 footer {
-	height: 40px;
+	height: 60px;
 	font-size: 1rem;
 	font-family: "Poppins";
 	display: block;
@@ -76,7 +76,7 @@ footer {
 	font-weight: bold;
 	padding: 16px;
 	background-color: #dd97eb ;
-	margin-bottom: 0 auto;
+	margin-left: 0px;
 	
 	
 }
@@ -181,6 +181,34 @@ h3{
 	color: blueviolet;
 	margin: 3px;
 	font-size: 1rem;
+}
+/*contact*/
+#info{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #d2dbe4;
+	
+}
+#contact{
+	margin: 3px;
+}
+h4{
+	font-family: "Yaldevi";
+	margin: 3px;
+	padding: 3px;
+}
+#map{
+	margin-top: 5px;
+	border-radius: 10px;
+	border: #0c0d0e;
+	align-content: center;
+}
+h3.info-head{
+	font-size: 1.2rem;
+	color: black;
 }
 
 
