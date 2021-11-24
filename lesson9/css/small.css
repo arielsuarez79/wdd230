@@ -182,6 +182,33 @@ h3{
 	margin: 3px;
 	font-size: 1rem;
 }
+/*article*/
+.funder{
+	margin: 15px;
+	border: 1px solid #bbb;
+	padding: 20px;
+	background-color: #eee;
+	padding-bottom: 1rem;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	align-content: center;
+	text-align: center;
+}
+.article-text{
+	max-width: 900px;
+}
+.article-img{
+	width: 250px;
+	
+}
+.article-text{
+	text-align: justify;
+}
+.funder{
+	padding: 10px;
+	
+}
+
+
 /*contact*/
 #info{
 	display: flex;

@@ -43,6 +43,25 @@
     nav ul li a{
         border: none;
     }
+    /*article*/
+    .article-img{
+        float: right;
+        padding: 10px;
+    }
+    div p.article-text{
+        text-align: justify;
+    }
+    .funder{
+        max-width: 900px;
+        margin: auto;
+        margin-bottom: 15px;
+        
+    }
+    
+    .position{
+        display: block;
+        margin: auto;
+    }
     /*home*/
     .cards{
         display: grid;
