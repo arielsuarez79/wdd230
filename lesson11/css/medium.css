@@ -1,0 +1,92 @@
+@media only screen and (min-width: 32rem) {
+    
+    
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    nav a:hover{
+        background-color: #dbaacc;
+        color: #5f748a;
+    }
+    nav button{
+        display: none;
+    }
+    nav ul.hide{
+        display: flex;
+    }
+    nav ul li a{
+        border: none;
+        width: max-content;
+    }
+    /*home*/
+    
+    section{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        width: 450px;
+        height: 200px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    h3{
+       grid-column: 1;
+    }
+
+    section p{
+        grid-column: 1;
+    }
+    section img{
+        width: 200px;
+        height: 150px;
+        grid-column: 2;
+        grid-row: 2/ span 8;
+    }
+    
+    section:nth-child(odd) img {
+        grid-column: 1;
+    }
+    
+    section:nth-child(odd) p{
+        grid-column: 2;
+    }
+    
+    section:nth-child(odd) h3{
+        grid-column: 2;
+    }
+    section:nth-child(odd) h2{
+        grid-column: 2;
+    }
+    /*events*/
+    .town-events-info{
+        display: flex;
+
+    }
+    .town-event{
+        display: flex;
+        flex-direction: column;
+        
+        background-color: #dbaacc;
+        
+        height: 200px;
+    }
+    .town-event{
+        display: flex;
+        justify-content: flex-start;
+        background-color: #dbaacc;
+        height: 200px;
+    }
+    .town-event p{
+        font-size: 1.1rem;
+        padding: 3px;
+    }
+      
+    
+}
