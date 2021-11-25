@@ -2,6 +2,7 @@
 
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=d858fada324e1f2852714d37102f24bb ";
 const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=d858fada324e1f2852714d37102f24bb";
+//Summary
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -22,7 +23,7 @@ fetch(apiURL)
         document.querySelector('#speed').innerHTML = `${speed} mph`;
 
     });
-    //Fetch forecast url
+    //Forecast 
     fetch(forecastUrl)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -32,7 +33,7 @@ fetch(apiURL)
         let dayOfTheWeek;
         const days = document.querySelectorAll('.col-head');
 
-        const weekDayNames = {
+        const weekDays = {
             0: 'SUN',
             1: 'MON',
             2: 'TUE',
@@ -43,19 +44,19 @@ fetch(apiURL)
         }
 
         days.forEach((day) => {
-            Object.keys(weekDayNames).forEach((day) => {
+            Object.keys(weekDays).forEach((day) => {
                 if (i > 6) {
                     i = 0;
                 }
                 if (day == i) {
-                    dayOfTheWeek = weekDayNames[i];
+                    dayOfTheWeek = weekDays[i];
                 }
             })
             day.innerHTML = dayOfTheWeek;
             i += 1;
         })
 
-        const weeklyImages = document.querySelectorAll('.week-img');
+        const weekImages = document.querySelectorAll('.week-img');
 
         const weeklyTemp = document.querySelectorAll('.data');
 
@@ -70,16 +71,16 @@ fetch(apiURL)
                 weeklyTemp[count].innerHTML = `${weeklyWeather}&#8457;`;
 
                 let imagesrc = `https://openweathermap.org/img/w/${jsObject.list[i].weather[0].icon}.png`;
-                weeklyImages[count].setAttribute('src', imagesrc)
+                weekImages[count].setAttribute('src', imagesrc)
 
                 count += 1;
             }
         })
-        for (i = today, j = 0; j < weeklyImages.length; j++, i++){
+        for (i = today, j = 0; j < weekImages.length; j++, i++){
             if(i > 6){
                 i = 0;
             }
-            weeklyImages[j].setAttribute('alt', `An image for daily weather`)
+            weekImages[j].setAttribute('alt', `An image for daily weather`)
         }
 });
 

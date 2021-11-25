@@ -24,13 +24,15 @@
         border: none;
         width: max-content;
     }
-    .img{
+    .image{
         position: relative;
     }
+    
     .table{
          
-        position: absolute; left: 80px; top: 300px;
-         
+        position: absolute; left: 50px; top: 90px;
+        
+        
     }
     main{
         display: grid;

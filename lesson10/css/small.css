@@ -109,7 +109,7 @@ nav ul li a:hover{
 nav ul.hide{
 	display: none;
 }
-
+/*weather summary*/
 tr .td1{
 	text-align: right;
 	color: whitesmoke;
@@ -118,6 +118,8 @@ tr .td2{
 	text-align: left;
 	color: yellow;
 }
+
+
 table{
 	width: 250px;
 	font-family: "Poppins";
@@ -137,6 +139,7 @@ table{
 	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 	background: radial-gradient(#cba9ce, #7469b6);
 	opacity: 0.95;
+	width: fit-content;
 	
 }
 #description{
@@ -149,6 +152,8 @@ article{
 section{
 	display: block;
 }
+
+
 .image{
 	width: 100%;
 

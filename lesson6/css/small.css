@@ -145,6 +145,16 @@ section{
 	width: 100%;
 
 }
+.image{
+	position: relative;
+	
+
+}
+.table{
+	position: absolute;
+	top: 35px;
+	left: 20px;
+}
 .preston-img{
 	width: 100%;
 	margin: auto;

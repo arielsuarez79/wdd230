@@ -43,11 +43,13 @@
     nav ul li a{
         border: none;
     }
-    
+    .image{
+        position: relative;
+    }
     
     .table{
          
-        position: absolute; left: 250px; top: 300px;
+        position: absolute; left: 50px; top: 90px;
         
         
     }
