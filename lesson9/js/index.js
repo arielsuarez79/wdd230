@@ -7,7 +7,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
     //console.table(jsonObject);  // temporary checking for valid response and data parsing
         const prophets = jsonObject['towns'];
-        const change = prophets.filter((town) => town.name === 'Preston'|| town.name === 'Fish Haven'|| town.name === 'Greenville');
+        const change = prophets.filter((town) => town.name === 'Preston'|| town.name === 'Fish Haven'|| town.name === 'Soda Springs');
         change.forEach((x) => {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
