@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css-gallery/normalize.css">
+    <link rel="stylesheet" href="css-gallery/small.css">
+    <link rel="stylesheet" href="css-gallery/medium.css">
+    <link rel="stylesheet" href="css-gallery/large.css">
+
+    <script defer src="js/scripts.js"></script>
+    <script defer src="js/date.js"></script>
+    <script defer src="js/lazyload.js"></script>
+    <script defer src="js/visit.js"></script>
+    
+    <title>MaTeo Weather</title>
+</head>
+<body>
+    <header>
+        <img class="logo-image" src="images/89157_weather_icon.png" alt="">
+        <div>
+            <h1>MaTeo Weather</h1>
+            <p>Clear Weather Information</p>
+        </div>
+        
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="../lesson11/index.html" class="">Home</a></li>
+            <li><a href="../lesson11/preston.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="../lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a class="active" href="../lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <section class="lazy-gallery">
+                <picture>
+                <img src="https://via.placeholder.com/300x400" data-src="images/suny.jpg" alt="sunny image">
+                <figcaption>Sunny Day</figcaption>
+                </picture>
+                <picture>
+                    <img src="https://via.placeholder.com/300x400" data-src="images/rainy.jpg" alt="rainy walk">
+                    <figcaption>Rainy Street</figcaption>           
+                </picture>
+                <picture>
+                    <img src="https://via.placeholder.com/300x400" data-src="images/snow.jpg" alt="snowy mountain">
+                    <figcaption>Snowy Mountain</figcaption>            
+                </picture>
+        
+            
+                <picture>
+                <img src="https://via.placeholder.com/300x400" data-src="images/spring .jpg" alt="spring flowers">
+                <figcaption>Spring Flowers</figcaption>
+                </picture>
+                <picture>
+                    <img src="https://via.placeholder.com/300x400" data-src="images/springwalk.jpg" alt="spring walk"> 
+                    <figcaption>Spring Walk</figcaption>           
+                </picture>
+                <picture>
+                    <img src="https://via.placeholder.com/300x400" data-src="images/storm.jpg" alt="storm ligthning"> 
+                    <figcaption>ligthning</figcaption>           
+                </picture>
+            
+                <picture>
+                <img src="https://via.placeholder.com/300x400" data-src="images/beach.jpg" alt="dream beach">
+                <figcaption>Dream Beach</figcaption>
+                </picture>
+                <picture>
+                    <img class="liberty" src="https://via.placeholder.com/300x400" data-src="images/cloudyliberty.jpg" alt="cloudy liberty"> 
+                    <figcaption>Cloudy Liberty</figcaption>           
+                </picture>
+                <picture>
+                    <img src="https://via.placeholder.com/300x400" data-src="images/fall.jpg" alt="fall lake">  
+                    <figcaption>Fall in the Lake</figcaption>          
+                </picture>
+            </section>    
+        </div>
+            
+       
+    </main>
+    <footer>
+        &copy;<span id="copyrightyear"></span> MaTeo Weather | Arnaldo Suarez 
+            <div id="date"></div>
+            <span> Last visit:
+                <span id="visit"></span> days
+            </span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    "Yaldevi",
+                    "Poppins"
+                ]
+            }
+        });
+    </script>
+    
+</html>

@@ -1,0 +1,46 @@
+@media only screen and (min-width: 32rem) {
+    
+    
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    nav a:hover{
+        background-color: #dbaacc;
+        color: #5f748a;
+    }
+    nav button{
+        display: none;
+    }
+    nav ul.hide{
+        display: flex;
+    }
+    nav ul li a{
+        border: none;
+        width: max-content;
+    }
+    .image{
+        position: relative;
+    }
+    
+    .table{
+         
+        position: absolute; left: 50px; top: 90px;
+        
+        
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 930px;
+    }
+    main image{
+        width: 100%;
+    }
+    
+}

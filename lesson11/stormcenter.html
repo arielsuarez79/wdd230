@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css-stormcenter/normalize.css">
+    <link rel="stylesheet" href="css-stormcenter/small.css">
+    <link rel="stylesheet" href="css-stormcenter/medium.css">
+    <link rel="stylesheet" href="css-stormcenter/large.css">
+    <script defer src="js/scripts.js"></script>
+    <script defer src="js/date.js"></script>
+    <script defer src="js/lazyload.js"></script>
+    <script defer src="js/visit.js"></script>
+    <script defer src="js/rating.js"></script>
+
+    
+    <title>MaTeo Weather</title>
+</head>
+<body>
+    <header>
+        <img class="logo-image" src="images/89157_weather_icon.png" alt="">
+        <div>
+            <h1>MaTeo Weather</h1>
+            <p>Clear Weather Information</p>
+        </div>
+        
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="../lesson11/index.html" class="">Home</a></li>
+            <li><a href="../lesson11/preston.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a class="active" href="../lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="storm-title">Storm Center Report</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Full Name <input type="text" name="full name" pattern="[a-zA-Z'-'\s]{5,}" required></label>
+                <label class="top">Email<input type="text" name="email" placeholder="aaa@email.com"></label>
+                <label class="top">Phone Number<input type="tel" name="Phone" required></label>
+                <label class="top">Zip Code<input type="text" name="Zip Code" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Report</legend>
+                <label class="top">Date <input type="date" name="date"> </label>
+                <label class="top">Select Type
+                    <input class="top" list="storms">
+                        <datalist class="top" id="storms">
+                            <option value="Flash Flood"></option>
+                            <option value="Hail"></option>
+                            <option value="Hurricane"></option>
+                            <option value="Thunderstorm"></option>
+                            <option value="Tornado"></option>
+                        </datalist>
+                </label>            
+                <label class="top" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                </label> 
+                <label class="top">Region
+                    <select class="top" name="region" id="region">
+                        <option value="">Select Region</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodasprings">Soda Springs</option>
+                        <option value="fishhaven">Fish Haven</option>
+                    </select>
+                </label>    
+            </fieldset>
+            <fieldset>
+                <legend>User in Danger Level</legend>
+                <label class="sbs"><input type="radio" name="level" value="yes">&nbsp;Yes</label>
+                <label class="sbs"><input type="radio" name="level" value="yes">&nbsp;Maybe</label>
+                <label class="sbs"><input type="radio" name="level" value="yes">&nbsp;No</label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                
+                <label class="text-area"><textarea name="information" id="information" ></textarea> </label>
+            </fieldset>
+            <input type="submit" value="Report" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        &copy;<span id="copyrightyear"></span> MaTeo Weather | Arnaldo Suarez 
+            <div id="date"></div>
+            <span> Last visit:
+                <span id="visit"></span> days
+            </span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    "Yaldevi",
+                    "Poppins"
+                ]
+            }
+        });
+    </script>
+    
+</html>

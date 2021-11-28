@@ -173,13 +173,13 @@ main div.hero{
 section{
 	padding: 5px;
 	background-color: bisque;
-	border: 1.5px solid black;
+	/*border: 0.5px solid black;*/
 	margin: 5px;
 	border-radius: 3px;
 }
 h3{
 	font-family: "Yaldevi";
-	color: blueviolet;
+	color: #6119a3;
 	margin: 3px;
 	font-size: 1rem;
 }
@@ -196,17 +196,57 @@ h3{
 .h3-title{
 	color: black;
 	font-size: 1.3rem;
-	padding: 5px;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	
+	background-color: #6c6d6e;
+	border-radius: 3px 3px 0 0;
+	border-bottom:1px solid #e9e9f0;
+	
+	text-align: center;
 }
 .town-event{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #dbaacc;
+	
 }
 section.town-event p{
 	font-size: 1.1rem;
 	padding: 3px;
+	text-align: center;
+}
+section.town-event{
+	padding: 0;
+}
+.position{
+	
+	margin: 15px;
+	border: 1px solid #bbb;
+	padding: 20px;
+	background-color: #eee;
+	padding-bottom: 1rem;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	align-content: center;
+	text-align: center;
+}	
+section h4 {
+	font-family: "Yaldevi";
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+.article-img{
+	width: 250px;
+	
+}
+.article-text{
+	text-align: justify;
+}
+.funder{
+	padding: 10px;
+	
 }
 
 
@@ -239,7 +279,7 @@ h3.info-head{
 	color: black;
 }
 h4{
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 #contact img:hover{
 	
