@@ -8,7 +8,7 @@ fetch(infoURL)
     console.table(jsonObject);
     const towns = jsonObject["towns"];
     towns.forEach((town) => {
-      if (town.name == "Preston") {
+      if (town.name === "Fish Haven") {
         
         let sectionEvent = document.createElement("section");
         let divContCardEvent = document.createElement("div");

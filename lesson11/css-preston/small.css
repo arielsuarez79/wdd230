@@ -246,6 +246,8 @@ picture img{
 .town-events-info p{
 	padding: 10px;
 }
+
+
 /*article*/
 .position{
 	
@@ -260,7 +262,7 @@ picture img{
 }	
 section h4 {
 	font-family: "Yaldevi";
-	font-size: 1.8rem;
+	font-size: 1.9rem;
 	font-weight: bold;
 }
 .article-img{
@@ -269,7 +271,10 @@ section h4 {
 }
 .article-text{
 	text-align: justify;
+	padding: 10px;
+	line-height : 25px;
 }
+
 .funder{
 	padding: 10px;
 	
