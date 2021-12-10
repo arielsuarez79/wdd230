@@ -1,46 +1,28 @@
 
 /*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');*/
-
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
 
 header{
 	height: 100px;
     display: flex;
+	flex-direction: column;
 	padding: 1rem;
-    align-items: center;
-	justify-content: center;
-	background-color: #dd97eb;
+    
 	max-width: 100%;
 	margin: auto;
-    
+    height: fit-content;
 }
 
-h1 {
-	font-size: 1.4rem;
-	font-family: "Poppins";
-	padding: 10px;
-	margin: auto;
-	
-}
-h2{
-	text-align: center;
-	font-family: "Poppins";
-	font-size: 1.8rem;
-	font-weight: bold;
-}
-
-
-p{
-	font-size: 1rem;
-	font-family: "Yaldevi";
-	margin: auto;
-		
-}
 
 nav {
-	background-color: #5f748a;
+	background-color: #2fb623;
 	text-align: center;
 	font-family: "Yaldevi";
+	display: block;
 	
 }
 nav ul {
@@ -65,12 +47,13 @@ nav button{
 	border: none;
 	color: white;
 	font-size: 1.6rem;
+	
 }
 
 footer {
-	height: 60px;
+	height: 70px;
 	font-size: 1rem;
-	font-family: "Poppins";
+	font-family: "Yaldevi";
 	display: block;
 	text-align: center;
 	font-weight: bold;
@@ -81,11 +64,13 @@ footer {
 	
 }
 nav ul li a:hover{
-	background-color: #dbaacc;
-	color: #5f748a;
+	background-color: green;
+	color: white;
 }
 .logo-image{
-	width: 150px;
+	width: 200px;
+	border-radius: 3px;
+	
 }
 nav ul.hide{
 	display: none;
@@ -94,58 +79,53 @@ nav ul.hide{
 
 	
 .active{
-	color: #fbc2e9;
-	background-color: #535b64 ;
+	color: white;
+	background-color: green;
 	border-top: 1px solid white;
 	border-radius: 2px;
 }
-/* banner*/
-.banner{
-	display: none;
-}
-.banner {
-	background: #009579;
-  }
-  
-  .banner__content {
-	padding: 16px;
-	max-width: 500px;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-  }
-  
-  .banner__text {
-	flex-grow: 1;
-	line-height: 1.4;
-	font-family: "Yaldevi", sans-serif;
-  }
-  
-  .banner__close {
-	background: none;
-	border: none;
-	cursor: pointer;
-  }
-  
-  .banner__text,
-  .banner__close > span {
-	color: #ffffff;
-  }
-  
+
 
 
 /*home*/
-main div.hero{
-	max-width: 900px;
-	
-	margin: auto;
-}
-.hero-img{
+
+.hero img{
 	width: 100%;
-	height: 100%;
-	border-radius: 2px;
-	padding: 5px;
+	display: flex;
 }
+/*history*/
+.history{
+	margin: 30px;
+	
+	padding: 20px;
+	
+	padding-bottom: 1rem;
+	box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+	align-content: center;
+	text-align: center;
+}
+.history h1{
+	text-align: center;
+	color: green;
+	font-size: 2.3rem;
+	font-family: "Yaldevi";
+	padding: 10px;
+	
+}
+.history h2{
+	text-align: left;
+	font-size: 1.4rem;
+	padding: 5px;
+	color: green;
+	font-family: "yaldevi";
+}
+.history p{
+	text-align: justify;
+	padding: 7px;
+	line-height: 1.5em;
+}
+
+
 /*cards*/
 .cards img{
 	width: 300px;
