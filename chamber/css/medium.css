@@ -4,13 +4,14 @@
         background-color: white;
         
         display: flex;
-        padding: 1rem;
+        /*padding: 1rem;*/
        
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
         width: 100%;
         position: fixed;
+        margin-bottom: 10px;
     }
     
     .hide {
@@ -21,10 +22,10 @@
         
     }
     
+    nav{
+        border-bottom: 1px solid green ;
+    }
     
-    nav a:hover{
-        background-color: #dbaacc;
-        color: #5f748a;
     }
     nav button{
         display: none;
@@ -36,6 +37,18 @@
     nav ul li a{
         border: none;
         width: max-content;
+        border-radius: 4px 4px 0px 0px;
+    }
+    /*hero*/
+    
+    main{
+        display: block;
+    }
+    .hero img{
+       
+        width: 100%;
+        padding-top: 100px;
+        
     }
     /*home*/
     
@@ -111,4 +124,3 @@
     }
       
     
-}

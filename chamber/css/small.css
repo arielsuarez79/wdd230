@@ -11,18 +11,20 @@ header{
     display: flex;
 	flex-direction: column;
 	padding: 1rem;
-    
+
 	max-width: 100%;
 	margin: auto;
     height: fit-content;
+	
 }
 
 
 nav {
-	background-color: #2fb623;
+	/*background-color: #2fb623;*/
 	text-align: center;
 	font-family: "Yaldevi";
 	display: block;
+	
 	
 }
 nav ul {
@@ -33,7 +35,7 @@ nav ul {
 }
 nav ul li a {
 	display: block;
-	color: #fff;
+	color:green;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
@@ -45,7 +47,7 @@ nav button{
 	margin: .2rem 2%;
 	background-color: transparent;
 	border: none;
-	color: white;
+	color:green;
 	font-size: 1.6rem;
 	
 }
@@ -70,6 +72,7 @@ nav ul li a:hover{
 .logo-image{
 	width: 200px;
 	border-radius: 3px;
+	margin: auto;
 	
 }
 nav ul.hide{
@@ -81,18 +84,18 @@ nav ul.hide{
 .active{
 	color: white;
 	background-color: green;
-	border-top: 1px solid white;
-	border-radius: 2px;
+	border-top: 1px solid #9ad89a;
+	border-radius: 3px 3px 0px 0px;
 }
 
 
 
-/*home*/
-
-.hero img{
+/*hero*/
+img{
 	width: 100%;
-	display: flex;
+	padding-top: 5px;
 }
+
 /*history*/
 .history{
 	margin: 30px;

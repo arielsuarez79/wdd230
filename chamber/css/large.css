@@ -4,12 +4,14 @@
         background-color: white;
         
         display: flex;
-        padding: 1rem;
+        /*padding: 1rem;*/
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
         width: 100%;
         position: fixed;
+        
+        
     }
     .logo-image{
         margin-right: 2rem;
@@ -17,21 +19,21 @@
     nav ul{
         width: 100%;
     }
-    nav {
-        border-radius: 2px;
-    }
-
+    
     nav ul li a{
         font-size: 1.1rem;
         padding: 10px 25px 10px 25px;
         display: flex;
-        margin-right: 20px;
-        border-radius: 3px;
+       
+        border-radius: 4px 4px 0px 0px;
     }
     
     nav{
         display: flex;
         justify-content: center;
+        padding-bottom: 10px;
+        border-bottom: 1px solid green ;
+        
         
     }
     
@@ -40,6 +42,10 @@
     }
     nav ul li a{
         border: none;
+    }
+    /*hero*/
+    .hero-img{
+        width: 100%;
     }
    
    
