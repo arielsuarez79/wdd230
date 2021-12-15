@@ -53,10 +53,10 @@
    
    
     
-    /*home*/
+    /*directory*/
     .cards{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         justify-content: center;
        
@@ -128,7 +128,13 @@
     }
     #social{
         grid-column: 2/2;
+    
     }
+    #social img{
+        width: 34px;
+        height: 34px;
+    }
+    
     #map{
         grid-row: span 2;
     }  

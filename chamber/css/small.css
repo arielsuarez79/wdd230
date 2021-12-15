@@ -134,7 +134,7 @@ nav ul.hide{
 }
 
 
-/*cards*/
+/*directory*/
 .cards img{
 	width: 300px;
 	height: 150px;
@@ -155,12 +155,14 @@ nav ul.hide{
 }
 .cards h2{
 	margin: 2px;
-	font-size: 1.9rem;
+	font-size: 1.5rem;
+	font-family: "Yaldevi";
+	align-content: space-around;
 }
 
 section{
 	padding: 5px;
-	background-color: bisque;
+	background-color: gray;
 	/*border: 0.5px solid black;*/
 	margin: 5px;
 	border-radius: 3px;
@@ -353,6 +355,12 @@ h3.info-head{
 }
 h4{
 	font-size: 1rem;
+}
+
+#contact img{
+	
+	width: 34px;
+	padding: 0;
 }
 #contact img:hover{
 	

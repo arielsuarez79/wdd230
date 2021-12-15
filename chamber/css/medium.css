@@ -53,14 +53,14 @@
         padding-top: 100px;
         
     }
-    /*home*/
+    /*directory*/
     
     section{
         display:grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,1fr);
         width: 450px;
-        height: 230px;
+        height: 260px;
         align-items: center;
         justify-items: center;
     }
