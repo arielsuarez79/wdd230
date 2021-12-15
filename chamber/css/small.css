@@ -7,14 +7,15 @@
 }
 
 header{
-	height: 100px;
+	/*height: 100px;*/
     display: flex;
 	flex-direction: column;
+	justify-content: center;
 	padding: 1rem;
 
 	max-width: 100%;
 	margin: auto;
-    height: fit-content;
+    
 	
 }
 
@@ -40,7 +41,7 @@ nav ul li a {
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 1.1rem;
-	border-top: 1px solid rgb(0, 0, 0, 0.3);
+	border-top: 1px solid grey;
 	
 }
 nav button{
@@ -91,10 +92,14 @@ nav ul.hide{
 
 
 /*hero*/
-img{
+.hero img{
 	width: 100%;
-	padding-top: 5px;
+	/*padding-top: 100px;*/
+	margin: auto;
 }
+/*img{
+	width: 100%;
+}*/
 
 /*history*/
 .history{
@@ -167,13 +172,33 @@ h3{
 	font-size: 1rem;
 }
 /*events*/
+article.events{
+	margin: 30px;
+	
+	padding: 20px;
+	
+	padding-bottom: 1rem;
+	box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+	align-content: center;
+	text-align: center;
+	
+
+}
+.events-title{
+	display: inline-flex;
+	text-align: center;
+}
 .town-events{
 	display: flex;
 	align-content: center;
+	
 }	
 .town-events-info{
 	
 	margin: auto;
+	
+	padding: 10px;
+	margin-bottom: 15px;
 }
 
 .h3-title{
@@ -231,6 +256,71 @@ section h4 {
 	padding: 10px;
 	
 }
+/*5day forecast*/
+
+.title-forecast{
+	text-align: center;
+}
+article.forecast{
+
+	margin: 30px;
+	/*padding-bottom: 15px;
+	padding-left: 8px;*/
+	padding: 20px;
+	box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+	/*width: 100%;*/
+	align-content: center;
+}
+	
+.flex {
+	display: flex;
+	flex-flow: row wrap;
+	
+	width: 100%;
+	/*margin: auto;*/
+	font-family: "Yaldevi";
+	
+	margin: auto;
+}
+
+.flex-col {
+	flex: 0.5 0.5 auto;
+	background-color: #dcf1e3;
+	
+	text-align: center;
+	
+}
+/*.flex-col, .column-col, .grid-col {
+	border-top: 1px solid #333 ;
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	border-right: 1px solid #333 ;
+	text-align: center;
+
+}*/
+
+.col-head {
+	display: block;
+	padding: 5px;
+	/*border-bottom: 1px solid #333;*/
+	text-align: center;	
+	font-family: "Yaldevi";
+}
+
+.week-img {
+	border-radius: 100px;
+	padding: 0.25rem;
+	width: 50px;
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 1rem;
+	text-align: center;
+	font-family: "Yaldevi";
+
+}
 
 
 /*contact*/
@@ -274,5 +364,6 @@ h4{
 #contact a{
 	padding: 5px;
 }
+/*city*/
 
 

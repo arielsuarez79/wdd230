@@ -1,20 +1,22 @@
 @media only screen and (min-width: 50.5em){
+    
     header {
 
         background-color: white;
         
         display: flex;
         /*padding: 1rem;*/
-        flex-direction: row;
+        /*flex-direction: row;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;*/
         width: 100%;
+        height: 100px;
         position: fixed;
         
         
     }
     .logo-image{
-        margin-right: 2rem;
+        margin: auto;
     }
     nav ul{
         width: 100%;
@@ -29,7 +31,7 @@
     }
     
     nav{
-        display: flex;
+        /*display: flex;*/
         justify-content: center;
         padding-bottom: 10px;
         border-bottom: 1px solid green ;
@@ -46,6 +48,7 @@
     /*hero*/
     .hero-img{
         width: 100%;
+        height: 100%;
     }
    
    
@@ -105,6 +108,14 @@
         font-size: 1.1rem;
         padding: 3px;
     }
+    /*weather*/
+    .forecast{
+        display:  block;
+    }
+    article .forecast{
+        width: 600px;
+        
+    }
     /*Contact style*/
     
     #info{
@@ -121,8 +132,50 @@
     #map{
         grid-row: span 2;
     }  
-    
+    /*city*/
+    .lazy-gallery{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
         
+    }
+    .lazy-gallery {
+        
+        margin-top: 15px;
+        margin-bottom: 15px;
+        grid-gap: 25px;
+        align-items: center;
+        justify-items: center;
+        padding: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+    picture img:hover{
+        border-radius: 4px;
+        box-shadow: 5px 5px 10px;
+    }
+    article img[data-src] {
+        filter: blur(0.2em);
+    }
+      
+    article img {
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
+    figcaption{
+        font-family: Yaldevi;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+
+    }
+    picture img{
+        width: 400px;
+        height: 300px;
+        
+    }
 
     
 }    

@@ -1,0 +1,340 @@
+/*city*/
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header{
+	/*height: 100px;*/
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
+
+	max-width: 100%;
+	margin: auto;
+    
+	
+}
+
+
+nav {
+	/*background-color: #2fb623;*/
+	text-align: center;
+	font-family: "Yaldevi";
+	display: block;
+	
+	
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color:green;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.1rem;
+	border-top: 1px solid grey;
+	
+}
+nav button{
+	margin: .2rem 2%;
+	background-color: transparent;
+	border: none;
+	color:green;
+	font-size: 1.6rem;
+	
+}
+
+footer {
+	height: 70px;
+	font-size: 1rem;
+	font-family: "Yaldevi";
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	padding: 16px;
+	background-color: #dd97eb ;
+	margin-left: 0px;
+	
+	
+}
+nav ul li a:hover{
+	background-color: green;
+	color: white;
+}
+.logo-image{
+	width: 200px;
+	border-radius: 3px;
+	margin: auto;
+	
+}
+nav ul.hide{
+	display: none;
+}
+/**/
+
+	
+.active{
+	color: white;
+	background-color: green;
+	border-top: 1px solid #9ad89a;
+	border-radius: 3px 3px 0px 0px;
+}
+
+
+
+/*hero*/
+.hero img{
+	width: 100%;
+	/*padding-top: 100px;*/
+	margin: auto;
+}
+/*img{
+	width: 100%;
+}*/
+/*gallery*/
+main h2{
+    color: green;
+    font-family: "Yaldevi";
+    text-align: center;
+    padding: 15px;
+}
+figcaption{
+	font-family: "Yaldevi";
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+
+}
+.lazy-gallery img{
+	width: 400px;
+	height: 300px;
+	
+}
+
+section.lazy-gallery {
+	display: flex;
+    margin-top: 15px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+	width: 400px;
+	height: 300px;
+}
+/*contact*/
+#info{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #d2dbe4;
+	
+}
+#contact{
+	margin: 3px;
+}
+h4{
+	font-family: "Yaldevi";
+	margin: 3px;
+	padding: 3px;
+}
+#map{
+	margin-top: 5px;
+	border-radius: 10px;
+	border: #0c0d0e;
+	align-content: center;
+}
+h3.info-head{
+	font-size: 1.2rem;
+	color: black;
+}
+h4{
+	font-size: 1rem;
+}
+#contact img:hover{
+	
+	background-color: #ebebf3;
+	transform: scale(1.3);
+	border-radius: 3px;
+	
+}
+#contact a{
+	padding: 5px;
+}
+@media only screen and (min-width: 50.5em){
+    header {
+
+        background-color: white;
+        
+        display: flex;
+        /*padding: 1rem;*/
+        /*flex-direction: row;
+        align-items: center;
+        justify-content: center;*/
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        
+        
+    }
+    .logo-image{
+        margin: auto;
+    }
+    nav ul{
+        width: 100%;
+    }
+    
+    nav ul li a{
+        font-size: 1.1rem;
+        padding: 10px 25px 10px 25px;
+        display: flex;
+       
+        border-radius: 4px 4px 0px 0px;
+    }
+    
+    nav{
+        /*display: flex;*/
+        justify-content: center;
+        padding-bottom: 10px;
+        border-bottom: 1px solid green ;
+        
+        
+    }
+    
+    nav button{
+        display: none;
+    }
+    nav ul li a{
+        border: none;
+    }
+    /*hero*/
+    .hero-img{
+        width: 100%;
+        height: 100%;
+    }
+    /*gallery*/
+    section.lazy-gallery{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin: auto;
+        
+    }
+    section.lazy-gallery {
+        
+        margin-top: 15px;
+        margin-bottom: 15px;
+        grid-gap: 25px;
+        align-items: center;
+        justify-items: center;
+        padding: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+    picture img:hover{
+        border-radius: 4px;
+        box-shadow: 5px 5px 10px;
+    }
+    article img[data-src] {
+        filter: blur(0.2em);
+    }
+      
+    article img {
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
+    figcaption{
+        font-family: Yaldevi;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+
+    }
+    .lazy-gallery img{
+        width: 300px;
+        height: 200px;
+    }
+     /*Contact style*/
+    
+     #info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        align-content: center;
+        justify-items: center;
+        margin: auto;
+    }
+    #social{
+        grid-column: 2/2;
+    }
+    #map{
+        grid-row: span 2;
+    }  
+}
+@media only screen and (min-width: 32rem){
+    header {
+
+        background-color: white;
+        
+        display: flex;
+        /*padding: 1rem;*/
+       
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        margin-bottom: 10px;
+    }
+    
+    .hide {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        
+    }
+    
+    nav{
+        border-bottom: 1px solid green ;
+        padding-bottom: 10px;
+    }
+    
+    
+    nav button{
+        display: none;
+    }
+    nav ul.hide{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul li a{
+        border: none;
+        width: max-content;
+        border-radius: 4px 4px 0px 0px;
+    }
+    /*hero*/
+    
+    main{
+        display: block;
+    }
+    .hero img{
+       
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+        
+    }
+
+}

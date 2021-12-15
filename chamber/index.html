@@ -17,6 +17,7 @@
     <script defer src="js/visit.js"></script>
     <script defer src="js/index.js"></script>
     <script defer src="js/events.js"></script>
+    <script defer src="js/weatherapi.js"></script>
     
     <title>Chamber Tucumán</title>
 </head>
@@ -30,29 +31,29 @@
         </div>
 -->         
     
-    <nav>
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="" class="active">Home</a></li>
-            <li><a href="">City</a></li>
-            <li><a href="">Join</a></li>
-            <li><a href="">Directory</a></li>
-            <li><a href="">Contact</a></li>
-            
-        </ul>
-    </nav>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">City</a></li>
+                <li><a href="">Join</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="">Contact</a></li>
+                
+            </ul>
+        </nav>
     </header>
     <main>
-        <div class="hero">
+        <div class="hero"  >
             
              
-            <picture class="hero-img">
+            <picture>
                 <source  srcset="images/casatucuman300.jpg" media ="(max-width:499px)">
                 <source  srcset="images/casatucuman500.jpg" media ="(max-width:799px)">
                 <source  srcset="images/casatucuman1200.jpg" media ="(min-width:800px)">
                 <img src="images/casatucuman1200.jpg" alt="hero img">
             </picture>
-           
+            
             
         </div>
         <div class="history">
@@ -65,17 +66,53 @@
                 beginning to build a second-degree entity. Movement that was consolidated when first-degree business associations decided to come together and call an assembly on February 26, 1953 to designate 
                 a Provisional Commission that later convened, for April 1, 1953, the General Constitutive Assembly of Tucumán, in which the Economic Federation of Tucumán was formed, whose first President was Eng. Aldo Capuano.</p>
         </div>
-        <div class="cards">
-
+        <article class="forecast">
+            <h2 class="title-forecast">3 Day Forecast</h2>
+            
+        <div class="flex">
+            <div class="flex-col">
+                <span class="col-head">Wed</span>
+                <img class="week-img" src="images/placeholder.png" alt="sunny">
+                <span class="data">89 F°</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Thud</span>
+                <img class="week-img" src="images/placeholder.png" alt="">
+                <span class="data">87 F°</span>
+            </div>
+            <div class="flex-col">
+                <span class="col-head">Fri</span>
+                <img class="week-img" src="images/placeholder.png" alt="">
+                <span class="data">78 F°</span>
+            </div>
+            
+            <div class="flex-col">
+                <span class="col-head">Sat</span>
+                <img class="week-img" src="images/placeholder.png" alt="">
+                <span class="data">75 F°</span>
+            </div>
+            <!--
+            <div class="flex-col">
+                <span class="col-head">Sun</span>
+                <img class="week-img" src="images/placeholder.png" alt="">
+                <span class="data">72 F°</span>
+            </div>
+        -->
         </div>
-        <h2 class="home events-title">  Town Events </h2>
+        </article>
+        <article class="events">
 
+        <h2 class="home events-title">  Town Events </h2>
+            
         <div class="town-events">
-       
-        <div class="town-events-info">
+            
+
+    
+            <div class="town-events-info">
+            </div>
             
         </div>
-    
+        </article>
         
     
     </main>
