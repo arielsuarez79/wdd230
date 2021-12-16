@@ -100,6 +100,14 @@ nav ul.hide{
 	width: 100%;
 }*/
 /*gallery*/
+/*.city{
+    margin: 30px;
+    padding: 20px;
+    padding-bottom: 1rem;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+    align-content: center;
+    text-align: center;
+}*/
 .lazy-gallery p{
     font-family: "Yaldevi";
 }
@@ -236,6 +244,15 @@ h4{
         height: 100%;
     }
     /*gallery*/
+    /*.city{
+        margin: 40px;
+        padding: 20px;
+        padding-bottom: 1rem;
+        box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+        align-content: center;
+        text-align: center;
+    
+    }*/
     section.lazy-gallery{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -247,7 +264,7 @@ h4{
         
         margin-top: 15px;
         margin-bottom: 15px;
-        grid-gap: 25px;
+        
         align-items: center;
         justify-items: center;
         padding: 10px;
@@ -343,9 +360,9 @@ h4{
     }
     /*hero*/
     
-    main{
+    /*main{
         display: block;
-    }
+    }*/
     .hero img{
        
         width: 100%;
