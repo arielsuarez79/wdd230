@@ -100,11 +100,18 @@ nav ul.hide{
 	width: 100%;
 }*/
 /*gallery*/
+.lazy-gallery p{
+    font-family: "Yaldevi";
+}
 main h2{
     color: green;
     font-family: "Yaldevi";
     text-align: center;
     padding: 15px;
+    margin-top: 10px;
+    border-bottom: 2px solid green;
+    border-image: linear-gradient(0.25turn, rgb(92, 218, 109), rgb(0, 128, 0), rgb(92, 218, 109));
+    border-image-slice: 1;
 }
 figcaption{
 	font-family: "Yaldevi";
@@ -113,22 +120,29 @@ figcaption{
 	font-weight: bold;
 
 }
-.lazy-gallery img{
+/*.lazy-gallery img{
 	width: 400px;
 	height: 300px;
 	
-}
+}*/
 
 section.lazy-gallery {
-	display: flex;
-    margin-top: 15px;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-	width: 400px;
-	height: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
+.lazy-gallery picture img{
+    margin: 30px;
+    margin-bottom: 0;
+}
+.lazy-gallery img{
+    width: 300px;
+    height: 200px;
+}
+
 /*contact*/
 #info{
 	display: flex;
@@ -339,5 +353,24 @@ h4{
         padding-top: 100px;
         
     }
+    /* gallery city*/
+    section.lazy-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .lazy-gallery picture img {
+        width: 300px;
+        height: 200px;
+        margin: 20px;
+    }
+    .lazy-gallery picture{
+        margin: 10px;
+        align-content: center;
+    }
+    picture img{
+        margin: auto;
+    }
+    
 
 }

@@ -43,6 +43,7 @@ nav ul li a {
 	font-size: 1.1rem;
 	border-top: 1px solid grey;
 	
+	
 }
 nav button{
 	margin: .2rem 2%;
@@ -121,6 +122,9 @@ nav ul.hide{
 	font-size: 2.3rem;
 	font-family: "Yaldevi";
 	padding: 10px;
+	border-bottom: 2px solid green;
+	border-image: linear-gradient(0.25turn, rgb(92, 218, 109), rgb(0, 128, 0), rgb(92, 218, 109));
+    border-image-slice: 1;
 	
 }
 .history h2{
@@ -134,6 +138,7 @@ nav ul.hide{
 	text-align: justify;
 	padding: 7px;
 	line-height: 1.5em;
+	font-family: "Yaldevi";
 }
 
 
@@ -201,8 +206,17 @@ article.events{
 
 }
 .events-title{
-	display: inline-flex;
+	display: flex;
 	text-align: center;
+	justify-content: center;
+	font-family: "Yaldevi";
+	color: green;
+	border-bottom: 2px solid green;
+	border-image: linear-gradient(0.25turn, rgb(92, 218, 109), rgb(0, 128, 0), rgb(92, 218, 109));
+    border-image-slice: 1;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 100%;
 }
 .town-events{
 	display: flex;
@@ -276,6 +290,13 @@ section h4 {
 
 .title-forecast{
 	text-align: center;
+	font-family: "Yaldevi";
+	color: green;
+	border-bottom: 2px solid green;
+	border-image: linear-gradient(0.25turn, rgb(92, 218, 109), rgb(0, 128, 0), rgb(92, 218, 109));
+    border-image-slice: 1;
+	margin-bottom: 10px;
+	padding: 5px;
 }
 article.forecast{
 
