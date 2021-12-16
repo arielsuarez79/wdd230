@@ -59,7 +59,8 @@ footer {
 	text-align: center;
 	font-weight: bold;
 	padding: 16px;
-	background-color: #dd97eb ;
+	background-color: green ;
+    color: white;
 	margin-left: 0px;
 	
 	
@@ -309,6 +310,8 @@ h4{
     nav{
         border-bottom: 1px solid green ;
         padding-bottom: 10px;
+        border-image: linear-gradient(0.25turn, rgb(92, 218, 109), rgb(0, 128, 0), rgb(92, 218, 109));
+        border-image-slice: 1;
     }
     
     
