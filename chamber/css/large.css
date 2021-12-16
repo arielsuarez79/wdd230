@@ -61,9 +61,13 @@
         justify-content: center;
        
     }
-    .cards img{
-        width: 100%;
+    .cards section img{
+        width: 200px;
+        padding: 0;
         /*height: 150px;*/
+    }
+    .cards section p{
+        padding: 5px;
     }
     section{
         display: flex;

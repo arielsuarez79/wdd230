@@ -14,23 +14,21 @@ fetch(infopath)
             let addres = document.createElement('p');
             let phone = document.createElement('p');
             let website = document.createElement('p');
-            let rain = document.createElement('p');
             let img = document.createElement('img');
 
             h2.textContent = x.name;
-            addres.textContent = "Addres: " +x.addres;
+            addres.textContent = "Addres: "+x.addres;
             phone.textContent = "Phone: "+x.phone;
             website.textContent = "Website: "+x.website;
-            
     
             img.setAttribute('src', '../chamber/images/' + x.photo);
             img.setAttribute('alt', x.name + x.lastname);
 
             card.appendChild(h2);
-            card.appendChild(motto);
-            card.appendChild(founded);
-            card.appendChild(population);
-            card.appendChild(rain);
+            
+            card.appendChild(addres);
+            card.appendChild(phone);
+            card.appendChild(website);
             card.appendChild(img);
 
             document.querySelector('div.cards').appendChild(card);

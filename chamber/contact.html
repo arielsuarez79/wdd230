@@ -21,7 +21,7 @@
     
     <script defer src="js/weatherapi.js"></script>
     
-    <title>Tucuman Directory</title>
+    <title>Tucuman Contact</title>
 </head>
 <body>
     
@@ -39,8 +39,8 @@
                 <li><a href="../chamber/chamber.html" >Home</a></li>
                 <li><a href="../chamber/city.html" >City</a></li>
                 <li><a href="../chamber/join.html">Join</a></li>
-                <li><a href="../chamber/directory.html"class="active">Directory</a></li>
-                <li><a href="../chamber/contact.html">Contact</a></li>
+                <li><a href="../chamber/directory.html">Directory</a></li>
+                <li><a href="../chamber/contact.html" class="active">Contact</a></li>
                 
             </ul>
         </nav>
@@ -55,12 +55,82 @@
             <source  srcset="images/casatucuman1200.jpg" media ="(min-width:800px)">
             <img src="images/casatucuman1200.jpg" alt="hero img">
         </picture>
-    <h1 class="directory">Chamber Directory</h3>  
-        
-    <div class="cards">
-            
-    </div>
+          
     
+    
+        <div class="entry-content">
+            <h1 class="directory">Board Directors</h1>
+
+            <div class="card text-center my-3">
+                <h5 class="card-header background-1-olive color-white font-weight-bold">PRESIDENT</h5>
+                <div class="card-body">
+                <h5 class="card-title">Héctor Viñuales</h5>
+                    <p class="card-text"> (Cámara de Turismo de Tucumán)</p>
+                </div>
+            </div>
+            <div class="card text-center my-3">
+                <h5 class="card-header background-1-olive color-white font-weight-bold">VICE-PRESIDENT 1ST.</h5>
+                <div class="card-body">
+                <h5 class="card-title">José Agustín Maldonado</h5>
+                    <p class="card-text"> ( Centro de Agric. Cañeros )</p>
+                </div>
+            </div>
+            <div class="card text-center my-3">
+                <h5 class="card-header background-1-olive color-white font-weight-bold">VICE-PRESIDENT 2TH.</h5>
+                <div class="card-body">
+                    <h5 class="card-title">Hector Hugo Lagos</h5>
+                    <p class="card-text">(Nacion Seguros) </p>
+                </div>
+            </div>
+            <div class="card text-center my-3">
+                <h5 class="card-header background-1-olive color-white font-weight-bold">GENERAL SECRETARY</h5>
+                <div class="card-body">
+                <h5 class="card-title">Sr. Julio Cesar Delgado</h5>
+                    <p class="card-text"> (Ctro. Def. Comercial del Sur)</p>
+                </div>
+            </div>
+            <div class="card text-center my-3">
+                <h5 class="card-header background-1-olive color-white font-weight-bold">TREASURER</h5>
+                <div class="card-body">
+                <h5 class="card-title">Dr. Oscar Agustín Alfredo Arca</h5>
+                    <p class="card-text"> ( Unión Hoteles,Conf.,Rest.y Af.)</p>
+                </div>
+            </div>
+            <div class="card text-center my-3">
+                <h5 class="card-header background-1-olive color-white font-weight-bold">ASSISTANT TREASURER</h5>
+                <div class="card-body">
+                <h5 class="card-title">Braian Jeronimo Peralta</h5>
+                    <p class="card-text"> Banco Agricultura </p>
+            </div>
+            </div>
+            
+        
+
+
+        </div>
+        <div class="form-contact">
+            <h1 class="storm-title">Contact Us</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Full Name <input type="text" name="full name" pattern="[a-zA-Z'-'\s]{5,}" required></label>
+                <label class="top">Email<input type="text" name="email" placeholder="aaa@email.com"></label>
+                <label class="top">Phone Number<input type="tel" name="Phone" required></label>
+                <label class="top">Zip Code<input type="text" name="Zip Code" required></label>
+            </fieldset>
+            
+           
+            <fieldset>
+                <legend>Additional Information</legend>
+                
+                <label class="text-area"><textarea name="information" id="information" ></textarea> </label>
+            </fieldset>
+            <input type="submit" value="Send" class="submitBtn">
+        </form>
+        </div>
+        
+        
+   
     
         
         

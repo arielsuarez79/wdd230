@@ -54,6 +54,11 @@
         
     }
     /*directory*/
+    .cards section img{
+        width: 200px;
+        padding: 0;
+        /*height: 150px;*/
+    }
     
     section{
         display:grid;
@@ -72,14 +77,16 @@
        grid-column: 1;
     }
 
-    section p{
+    .cards section p{
         grid-column: 1;
+        font-family: "yaldevi";
+        padding: 10px;
     }
     section img{
         width: 200px;
         height: 150px;
         grid-column: 2;
-        grid-row: 2/ span 8;
+        grid-row: 2/ span 4;
     }
     
     section:nth-child(odd) img {
