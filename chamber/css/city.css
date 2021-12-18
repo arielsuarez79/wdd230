@@ -57,9 +57,9 @@ footer {
 	font-family: "Yaldevi";
 	display: block;
 	text-align: center;
-	font-weight: bold;
+	
 	padding: 16px;
-	background-color: green ;
+	background-color: #064503 ;
     color: white;
 	margin-left: 0px;
 	
@@ -110,6 +110,8 @@ nav ul.hide{
 }*/
 .lazy-gallery p{
     font-family: "Yaldevi";
+    padding: 10px;
+    text-align: center;
 }
 main h2{
     color: green;
@@ -158,7 +160,7 @@ section.lazy-gallery {
 	align-content: center;
 	align-items: center;
 	text-align: center;
-	background-color: #d2dbe4;
+	background-color: #49DB32;
 	
 }
 #contact{
@@ -191,6 +193,83 @@ h4{
 }
 #contact a{
 	padding: 5px;
+}
+@media only screen and (min-width: 32rem){
+    header {
+
+        background-color: white;
+        
+        display: flex;
+        /*padding: 1rem;*/
+       
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        margin-bottom: 10px;
+    }
+    
+    .hide {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        
+    }
+    
+    nav{
+        border-bottom: 1px solid green ;
+        padding-bottom: 10px;
+        border-image: linear-gradient(0.25turn, rgb(92, 218, 109), rgb(0, 128, 0), rgb(92, 218, 109));
+        border-image-slice: 1;
+    }
+    
+    
+    nav button{
+        display: none;
+    }
+    nav ul.hide{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul li a{
+        border: none;
+        width: max-content;
+        border-radius: 4px 4px 0px 0px;
+    }
+    /*hero*/
+    
+    /*main{
+        display: block;
+    }*/
+    .hero img{
+       
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+        
+    }
+    /* gallery city*/
+    section.lazy-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    
+    .lazy-gallery picture img {
+       justify-content: center;
+    
+    }
+    .lazy-gallery picture{
+        margin: auto;
+        align-content: center;
+        align-items: center;
+    }
+    
+    
+
 }
 @media only screen and (min-width: 50.5em){
     header {
@@ -260,7 +339,7 @@ h4{
         margin: auto;
         
     }
-    section.lazy-gallery {
+    /*section.lazy-gallery {
         
         margin-top: 15px;
         margin-bottom: 15px;
@@ -272,7 +351,7 @@ h4{
         flex-wrap: wrap;
         justify-content: space-evenly;
         
-    }
+    }*/
     picture img:hover{
         border-radius: 4px;
         box-shadow: 5px 5px 10px;
@@ -312,82 +391,4 @@ h4{
     #map{
         grid-row: span 2;
     }  
-}
-@media only screen and (min-width: 32rem){
-    header {
-
-        background-color: white;
-        
-        display: flex;
-        /*padding: 1rem;*/
-       
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 100%;
-        height: 100px;
-        position: fixed;
-        margin-bottom: 10px;
-    }
-    
-    .hide {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-        
-    }
-    
-    nav{
-        border-bottom: 1px solid green ;
-        padding-bottom: 10px;
-        border-image: linear-gradient(0.25turn, rgb(92, 218, 109), rgb(0, 128, 0), rgb(92, 218, 109));
-        border-image-slice: 1;
-    }
-    
-    
-    nav button{
-        display: none;
-    }
-    nav ul.hide{
-        display: flex;
-        justify-content: space-around;
-    }
-    nav ul li a{
-        border: none;
-        width: max-content;
-        border-radius: 4px 4px 0px 0px;
-    }
-    /*hero*/
-    
-    /*main{
-        display: block;
-    }*/
-    .hero img{
-       
-        width: 100%;
-        height: 100%;
-        padding-top: 100px;
-        
-    }
-    /* gallery city*/
-    section.lazy-gallery{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .lazy-gallery picture img {
-        width: 300px;
-        height: 200px;
-        margin: 20px;
-    }
-    .lazy-gallery picture{
-        margin: 10px;
-        align-content: center;
-    }
-    picture img{
-        margin: auto;
-    }
-    
-
 }

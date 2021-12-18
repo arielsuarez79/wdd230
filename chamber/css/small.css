@@ -60,10 +60,10 @@ footer {
 	font-family: "Yaldevi";
 	display: block;
 	text-align: center;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	padding: 16px;
 	color: white;
-	background-color: green;
+	background-color: #064503;
 	margin-left: 0px;
 	
 	
@@ -221,25 +221,27 @@ article.events{
 .town-events{
 	display: flex;
 	align-content: center;
+	justify-content: center;
 	
 }	
 .town-events-info{
 	
-	margin: auto;
 	
-	padding: 10px;
+	
+	/*padding: 10px;*/
 	margin-bottom: 15px;
+	
 }
 
 .h3-title{
 	color: black;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	margin: 0;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	width: 100%;
 	
-	background-color: #5f748a;
+	background-color: #7FF96C;
 	border-radius: 3px 3px 0 0;
 	border-bottom:1px solid #e9e9f0;
 	
@@ -249,16 +251,21 @@ article.events{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background: white;
 	
 }
 section.town-event p{
 	font-size: 1.1rem;
 	padding: 7px;
 	text-align: center;
+	max-width: 400px;
+	font-family: "Yaldevi";
+	font-size: 1rem;
 }
 section.town-event{
 	padding: 0;
 }
+/**/
 .position{
 	
 	margin: 15px;
@@ -513,7 +520,8 @@ select#region.top{
 	align-content: center;
 	align-items: center;
 	text-align: center;
-	background-color: #8ee7ac;
+	background-color: #49DB32;
+	
 	
 }
 #contact{

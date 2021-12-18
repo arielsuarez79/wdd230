@@ -107,14 +107,15 @@
     /*events*/
     .town-events{
         display: flex;
+        justify-content: center;
 
     }
     .town-event{
         display: flex;
         flex-direction: column;
         
-        background-color: bisque;
-        width: 300px;
+        
+        max-width: 400px;
         height: 100%;
     }
     .h3-title{
@@ -125,7 +126,7 @@
     .town-event{
         display: flex;
         justify-content: flex-start;
-        background-color: bisque;
+       
         height: 200px;
     }
     .town-event p{

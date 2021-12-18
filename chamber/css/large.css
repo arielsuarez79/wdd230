@@ -92,10 +92,17 @@
         padding: 10px;
     }
     /*event*/
+    .event{
+        display: flex;
+        justify-content: center;
+    }
+    
     .town-events-info{
        
         display: flex;
         justify-content: center;
+        width: 100%;
+        margin: 0;
         
 
     }
@@ -107,8 +114,8 @@
     .town-event{
         display: flex;
         justify-content: flex-start;
-        background-color: bisque;
-        height: 200px;
+        max-width: 250px;
+        
     }
     .town-event p{
         font-size: 1.1rem;
