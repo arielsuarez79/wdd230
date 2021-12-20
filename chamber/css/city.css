@@ -221,7 +221,7 @@ h4{
     }
     
     nav{
-        border-bottom: 1px solid green ;
+        border-bottom: 2px solid green ;
         padding-bottom: 10px;
         border-image: linear-gradient(0.25turn, rgb(92, 218, 109), rgb(0, 128, 0), rgb(92, 218, 109));
         border-image-slice: 1;

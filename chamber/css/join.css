@@ -16,10 +16,10 @@ div p{
     line-height: 1.8em;
     /*border-bottom: 1px solid green;*/
     padding-bottom: 5px;
-    border-bottom: 2px solid transparent;
+    /*border-bottom: 2px solid transparent;
     border-image: linear-gradient(0.25turn, rgb(92, 218, 109), rgb(0, 128, 0), rgb(92, 218, 109));
     border-image-slice: 1;
-    width:100%;
+    width:100%;*/
 }
 main h2{
     color: green;
