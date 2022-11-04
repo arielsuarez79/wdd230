@@ -33,6 +33,9 @@
     p{
         margin: auto;
     }
+    .input-top{
+        width: 90%;
+    }
     nav a:hover{
         background-color: #dbaacc;
         color: #5f748a;

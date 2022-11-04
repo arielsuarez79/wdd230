@@ -140,15 +140,16 @@ form label.top input, form label.top select{
 	border-radius: 4px;
 	padding: .75rem;
 	color: #555;
-	width: 100%;
-	max-width: 20rem;
 	background-color: rgb(0,0,0, 0.1);
 }
+
+
 form label.sbs{
 	display: block;
 	padding: 1rem 0;
 	color: #555;
 	font-family: "Poppins";
+	margin-left: 5px;
 }
 form input.submitBtn{
 	border: none;
@@ -168,16 +169,19 @@ form label.top input:required:valid{
 	border-left: green solid 4px;
 }
 #information{
-	width: 100%;
+	width: 95%;
+	margin:10px 5px;
 	min-height: 75px;
 	outline: none;
 	resize: none;
 	font-family: "Poppins";
 	font-size: 0.8rem;
 }
-input{
-	margin-top: 10px;
+.input-top{
+	width: 90%;
+	
 }
+
 select#region.top{
 	margin-top: 10px;
 }

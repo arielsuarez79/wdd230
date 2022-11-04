@@ -235,8 +235,8 @@ picture img{
 /*event*/
 .town-events{
 	background-color: rgb(187, 157, 211);
-	width: 400px;
-	margin: auto;
+	max-width: 400px;
+	margin: 0 10px;
 	text-align: center;
 	padding: 10px;
 	box-shadow: 1px 6px 5px 1px rgba(0,0,0,0.75);

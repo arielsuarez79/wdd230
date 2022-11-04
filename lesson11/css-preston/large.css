@@ -63,6 +63,11 @@
     .forecast{
         width: 600px;
     }
+    .town-events{
+        width: 700px;
+        margin: auto;
+       
+    }
     /*article*/
     .article-img{
         float: right;
