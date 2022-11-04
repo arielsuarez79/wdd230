@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32rem) {
+@media only screen and (min-width: 820px) {
     
     
     nav ul {
@@ -23,6 +23,9 @@
     nav ul li a{
         border: none;
         width: max-content;
+    }
+    .hero-img{
+        width: 100%;
     }
     /*home*/
     
